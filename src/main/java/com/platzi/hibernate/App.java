@@ -33,7 +33,7 @@ public class App
         session.save(teacher);
         session.getTransaction().commit();
         */
-        Teacher teacher = new Teacher("Jen", "Avatar2");
+        Teacher teacher = new Teacher("Joseph", "Avatar2");
         TeacherDaoimpl teacherDaoimpl = new TeacherDaoimpl();
         teacherDaoimpl.saveTeacher(teacher);
         
